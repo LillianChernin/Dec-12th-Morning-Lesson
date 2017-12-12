@@ -23,3 +23,36 @@ adventurer.belongings.push("Vogue Magazine");
 for (let i = 0; i < adventurer.belongings.length; i++) {
   console.log(adventurer.belongings[i]);
 }
+
+
+// * Write the companion object into the adventurer object
+// * Print just the companion's name to the console
+//
+adventurer.companion = {
+  name: "Toots",
+  type: "Fat Cat"
+}
+console.log(adventurer.companion.name);
+
+// Activity
+//
+// * Change the companion's name "Velma" to "Susan"
+// * Console.log to check that the name was changed
+
+adventurer.companion.name = "Susan";
+
+console.log(adventurer.companion.name);
+
+//
+// Extra
+//
+// * Add another object to the `adventurer` object called `companion2`.
+// * `companion2` should have a name and a type "Insect"
+
+adventurer.companion2 = {
+  name: "Tiny Tim",
+  type: "Insect"
+}
+console.log(adventurer.companion2)
+
+// * 6 minutes
